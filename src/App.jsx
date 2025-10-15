@@ -1,9 +1,10 @@
 import './App.css'
+import accountImage from './assets/account.jpg'
 
 function App() {
   return (
     <>
-      <img src="src/assets/account.jpg" alt="1" />
+      <img src={accountImage} alt="1" />
       <h1>Ясавиев Алмаз Ильнарович 426-ВЕБ</h1>
     </>
   )
